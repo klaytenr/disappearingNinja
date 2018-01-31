@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').click(function(){
+                $(this).hide();
+            });
+            $('button').click(function(){
+                $('img').show();
+            });
+
+
+        });
+    </script>
+    <style>
+        img{
+            width: 250px;
+            padding: 20px;
+        }
+        #img1{
+            background-color: red;
+        }
+        #img2{
+            background-color: blue;
+        }
+        #img3{
+            background-color: green;
+        }
+        #img4{
+            background-color: purple;
+        }
+        #img5{
+            background-color: orange;
+        }
+        #img6{
+            background-color: indigo;
+        }
+        #img7{
+            background-color: yellow;
+        }
+        #img8{
+            background-color: chartreuse;
+        }
+        button{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <img src="pic1.png" id="img1">
+    <img src="pic2.png" id="img2">    
+    <img src="pic3.png" id="img3">    
+    <img src="pic4.png" id="img4">    
+    <img src="pic5.png" id="img5">    
+    <img src="pic6.png" id="img6">    
+    <img src="pic7.png" id="img7">    
+    <img src="pic8.png" id="img8">
+    <button>RESET</button>
+</body>
+</html>
